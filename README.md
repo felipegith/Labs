@@ -39,3 +39,10 @@ Enriquece a representação dos objetos de domínio ao incorporar lógica de neg
 Mediator:
 
 Facilita a comunicação entre componentes, promovendo o baixo acoplamento e permitindo que diferentes partes da aplicação enviem comandos ou publiquem eventos sem conhecimento direto dos detalhes de implementação umas das outras.
+
+Esta api conta com três endpoints:
+- Um para marcação de ponto
+- Um para listar todos os pontos feitos por um funcionário
+- Um endpoint para listar todas as marcações que os funcionários fizeram em uma empresa
+
+Cada um desses endpoints contam com um comand para realizar suas respectivas ações dentro da aplicação.
